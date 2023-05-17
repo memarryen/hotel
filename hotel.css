@@ -133,9 +133,14 @@ body {
 
 .facilities {
     height: 289px;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: -160px;
+    margin-left: 5%;
 }
 
 .facilities-header {
@@ -151,6 +156,11 @@ body {
 
 .kitchen, .pool, .wifi, .gym {
     margin-right: 120px;
+    text-align: center;
+}
+
+.taxi {
+    text-align: center;   
 }
 
 .facilities-text {
@@ -170,6 +180,7 @@ body {
     font-weight: 500;
     font-size: 45px;
     text-align: center;
+    margin-top: 60px;
 }
 
 .rooms-photos {
